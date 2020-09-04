@@ -5,7 +5,7 @@
 [![Docker Stars](https://img.shields.io/docker/stars/ianstorm/my-smart-home-mqtt)](https://hub.docker.com/r/ianstorm/my-smart-home-mqtt)
 
 Garage project for **private purposes**.
-Provides a MQTT broker in custom configuration.
+Provides an MQTT broker with custom configuration for my smart home.
 
 **🐳 Make sure you have installed *Docker*.**
 
