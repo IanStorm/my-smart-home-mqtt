@@ -9,6 +9,8 @@ Provides an MQTT broker with custom configuration for my smart home.
 
 **🐳 Make sure you have installed *Docker*.**
 
+See how to put this repo in action at [IanStorm/my-smart-home-ras-pi](https://github.com/IanStorm/my-smart-home-ras-pi).
+
 
 ## How to use in "production"? 👨‍💼 👩‍💼
 
