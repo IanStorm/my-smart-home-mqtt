@@ -10,7 +10,49 @@ Provides a MQTT broker in custom configuration.
 **🐳 Make sure you have installed *Docker*.**
 
 
+## How to use in "production"? 👨‍💼 👩‍💼
+
+1. Follow ["How to get a pre-built Docker image?"](#-how-to-get-a-pre-built-docker-image-☁️).
+2. Start a Docker instance:
+```
+$	docker run \
+		--rm \
+		-d \
+		-t \
+		-p 1883:1883 \
+		-p 9001:9001 \
+		ianstorm/my-smart-home-mqtt
+```
+
+
+## How to develop? 👨‍💻 👩‍💻
+
+Make sure you have installed *Visual Studio Code*.
+
+1. Clone this repository.
+2. `cd` inside the cloned folder.
+2. Build the Docker image: Run the vscode task `build`.
+2. Start a Docker instance:
+```
+$	docker run \
+		--rm \
+		-i \
+		-t \
+		-p 1883:1883 \
+		-p 9001:9001 \
+		my-smart-home-mqtt
+```
+
+
 ## Appendix
+
+
+### How to get a pre-built Docker image? ☁️
+
+Get the latest Docker image from Docker Hub:
+```
+$	docker pull ianstorm/my-smart-home-mqtt:latest
+```
 
 
 ### Sources
