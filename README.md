@@ -22,7 +22,6 @@ $	docker run \
 		-d \
 		-t \
 		-p 1883:1883 \
-		-p 9001:9001 \
 		ianstorm/my-smart-home-mqtt
 ```
 
@@ -41,7 +40,6 @@ $	docker run \
 		-i \
 		-t \
 		-p 1883:1883 \
-		-p 9001:9001 \
 		my-smart-home-mqtt
 ```
 
