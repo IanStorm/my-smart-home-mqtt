@@ -5,6 +5,7 @@
 			"label": "build",
 			"type": "shell",
 			"command": "docker build -t my-smart-home-mqtt .",
+			"problemMatcher": [],
 			"group": {
 				"kind": "build",
 				"isDefault": true
