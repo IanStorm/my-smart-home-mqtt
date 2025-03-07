@@ -16,12 +16,13 @@ See how to put this repo in action at [IanStorm/my-smart-home-ras-pi](https://gi
 
 1. Follow ["How to get a pre-built Docker image?"](#-how-to-get-a-pre-built-docker-image-☁️).
 2. Start a Docker instance:
-```
-$	docker run \
+```sh
+docker run \
 		--rm \
 		-d \
 		-t \
 		-p 1883:1883 \
+		-p 8083:8083 \
 		ianstorm/my-smart-home-mqtt
 ```
 
@@ -32,16 +33,9 @@ Make sure you have installed *Visual Studio Code*.
 
 1. Clone this repository.
 2. `cd` inside the cloned folder.
-2. Build the Docker image: Run the vscode task `build`.
-2. Start a Docker instance:
-```
-$	docker run \
-		--rm \
-		-i \
-		-t \
-		-p 1883:1883 \
-		my-smart-home-mqtt
-```
+2. Build the Docker image: Run the vscode task _"build"_.
+2. Start a Docker instance: Run the vscode task _"run"_.
+* To access the GUI open any brwoser and enter `http://127.0.0.1:8083`
 
 
 ## Appendix

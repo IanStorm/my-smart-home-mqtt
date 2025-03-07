@@ -18,6 +18,21 @@
 			"problemMatcher": []
 		},
 		{
+			"label": "run",
+			"type": "shell",
+			"dependsOn": ["build"],
+			"command": "docker",
+			"args": [
+				"run",
+				"--rm",
+				"-i", "-t",
+				"-p", "1883:1883",
+				"-p", "8083:8083",
+				"my-smart-home-mqtt"
+			],
+			"problemMatcher": []
+		},
+		{
 			"label": "sync",
 			"type": "shell",
 			"command": "docker run -t -v ${PWD}/:/mnt/ ianstorm/dev-settings-sync sync",
