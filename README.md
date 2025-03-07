@@ -35,7 +35,7 @@ Make sure you have installed *Visual Studio Code*.
 2. `cd` inside the cloned folder.
 2. Build the Docker image: Run the vscode task _"build"_.
 2. Start a Docker instance: Run the vscode task _"run"_.
-* To access the GUI open any brwoser and enter `http://127.0.0.1:8083`
+* To access the GUI open any browser and enter `http://127.0.0.1:8083`
 
 
 ## Appendix
@@ -44,8 +44,8 @@ Make sure you have installed *Visual Studio Code*.
 ### How to get a pre-built Docker image? ☁️
 
 Get the latest Docker image from Docker Hub:
-```
-$	docker pull ianstorm/my-smart-home-mqtt:latest
+```sh
+docker pull ianstorm/my-smart-home-mqtt:latest
 ```
 
 

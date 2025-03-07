@@ -2,6 +2,7 @@
 	"recommendations": [
 		"editorconfig.editorconfig",
 		"ms-vscode-remote.remote-wsl",
+		"streetsidesoftware.code-spell-checker",
 		"wayou.vscode-todo-highlight"
 	]
 }
