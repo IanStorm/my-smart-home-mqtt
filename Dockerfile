@@ -1,4 +1,4 @@
-FROM eclipse-mosquitto:2.0.21
+FROM eclipse-mosquitto:2.0.22
 
 EXPOSE 1883
 EXPOSE 8083
